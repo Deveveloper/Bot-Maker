@@ -90,6 +90,7 @@ _M.create = function()
         
         end}
     }
+    
     for i = 1, #settings do
 
         local group = display.newGroup()

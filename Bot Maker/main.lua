@@ -57,17 +57,18 @@ else
                 data = {}
             }
         },
+        
         {
             path = "Groups.Default.DeviceInfo",
             chat = {
                 data = {}
             }
-        },
-        {
-            path = "Groups.Default.CompanyLinks",
-            chat = {
-                data = {}
-            }
+       -- },
+        --{
+         --   path = "Groups.Default.CompanyLinks",
+           -- chat = {
+             --   data = {}
+           -- }
         }
     }
     jsonfunc:save("bots.json", directory, bots)

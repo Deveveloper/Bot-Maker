@@ -106,7 +106,7 @@ _M.create = function(bot, id)
     end)
 
     field.hint = display.newText({text = "Введите ваше сообщение здесь...", font = "Fonts/Ubuntu/Ubuntu-Light", fontSize = 27, width = field.frame.width - 45, height = 32}) field:insert(field.hint)
-    field.hint.x, field.hint.y = field.hint.width/2 + 50, field.frame.y
+    field.hint.x, field.hint.y = field.hint.width/2 + 50, field.frame.y 
     field.hint.alpha = 0.25
     field.hint.data = ""
 

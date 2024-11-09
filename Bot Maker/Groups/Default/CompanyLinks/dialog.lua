@@ -42,7 +42,7 @@ end
 _M.data = function()
 
     return {
-        name = "CompanyLinka",
+        name = "CompanyLinks",
         description = "Ссылки на проекты DevTop Studio"
     }
 
